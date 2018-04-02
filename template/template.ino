@@ -1,5 +1,5 @@
 void setup() {
-  // put your setup code here, to run once:
+  // pin 0,1,2,3を出力に設定．
    pinMode(0,OUTPUT);
    pinMode(1,OUTPUT);
    pinMode(2,OUTPUT);
@@ -7,7 +7,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // pin 0を1000ms光らす．
   digitalWrite(0,HIGH);
   delay(1000);
 }
