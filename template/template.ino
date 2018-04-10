@@ -7,8 +7,9 @@ void setup() {
 }
 
 void loop() {
-  // pin 0を1000ms光らす．
-  digitalWrite(0,HIGH);
+  // pin 1を1000ms光らす．
+  digitalWrite(1,HIGH);
   delay(1000);
-  digitalWrite(0,LOW);
+  digitalWrite(1,LOW);
+  delay(1000);
 }
